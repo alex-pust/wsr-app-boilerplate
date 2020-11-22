@@ -89,7 +89,11 @@ module.exports = {
         modules: [path.resolve(__dirname, 'src'), 'node_modules'],
         extensions: ['.ts', '.tsx', '.mjs', '.js', '.jsx', '.json'],
     },
-    plugins: [new StylableWebpackPlugin(), new HtmlWebpackPlugin({title: 'Stylable App'})],
+    plugins: [
+        new StylableWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            template: 'src/index.html'
+        })],
     devServer: {
         historyApiFallback: true
     }

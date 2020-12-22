@@ -22,7 +22,7 @@
     "@stylable/runtime": "^3.11.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "wix-style-react": "^9.41.0"
+    "wix-style-react": "^9.49.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
@@ -31,8 +31,8 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
-    "@stylable/core": "^3.11.5",
-    "@stylable/webpack-plugin": "^3.11.5",
+    "@stylable/core": "^3.11.9",
+    "@stylable/webpack-plugin": "^3.11.9",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
@@ -56,6 +56,7 @@
     "url-loader": "^4.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "wix-ui-icons-common": "^2.0.296"
   }
 }
